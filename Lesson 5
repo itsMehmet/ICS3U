@@ -1,8 +1,0 @@
-import math
-
-length = input("Please input a length: ")
-length = float(length)
-R = input("Please Input Radius")
-R = float(R)
-Totalarea = 0.5*math.pi*math.pow(R,2) + 4*math.pow(R,2)
-print("The area of a normans window of side length", length, "is:", Totalarea)
