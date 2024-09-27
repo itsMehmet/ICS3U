@@ -1,0 +1,91 @@
+""" Author : Mehmet Yucel
+   Revison date : 24 Sep 2024
+   Program : Three-Part Python Output with Math
+   Description :
+   VARIABLE DICTIONARY :
+   UserL (float) = Question 1's length
+   UserW (float) = Question 1's Width
+   Area = Question 1's Area
+   Radius (float) = Question 2's Radius
+   AreaOfCircle = Question 2's Area Of A Circle
+   UserR (float) = Question 3's Radius
+   UserH (float) = Question 3's height
+   Volume = Final Volume of Question 3
+   SurfaceA = Final Surface Area for Question 3
+   PLength (float) = Question 4's Length
+   g (float) = The gravity for Question 4
+   Period = Period of the Pendulum For Question 4    """
+
+#Part One
+print ("Question One ")
+#Asks User For Length
+UserL = input("Please Input Length ")
+UserL:float = float(UserL)
+#Asks User For Width
+UserW = input("Please Input Width ")
+UserW:float = float(UserW)
+
+#Final Area
+Area = (UserL*UserW)
+
+print(" ")
+#Prints The Area
+print("Here is The Area Of Your Rectangle: %.2f " % Area)
+
+#Part 2
+import math 
+
+print(" ")
+print("Question Two")
+
+#Asks For Radius From user
+
+Radius = input("Please Input Radius ")
+
+Radius:float = float(Radius)
+#Calculating Area of The Circle
+AreaOfCircle = math.pi*math.pow(Radius,2)
+print(" ")
+#Prints Area of Circle
+print("Here is The Area Of Your Circle: %.2f" % AreaOfCircle)
+
+#Part 3
+print(" ")
+print("Question Three")
+#Asks for Radius
+UserR = input("Please Input Radius ")
+UserR:float = float(UserR)
+#Asks For Height
+UserH = input("Please Input Height ")
+UserH:float = float(UserH)
+
+#Calculating Final Volume
+Volume = math.pi*math.pow(UserR, 2)*UserH
+
+#Calculating Final Surface Area
+SurfaceA = 2*math.pi*UserR*UserH + 2*math.pi*math.pow(UserR, 2)
+
+print(" ")
+#Final Answer of Surface Area in 2 
+print("Here is The Volume: %.2f" % Volume)
+print(" ")
+#Final Answer of Surface Area in 2 decimal points
+print("Here is The Surface Area: %.2f" % SurfaceA)
+
+#Part 4
+print(" ")
+print("Question Four")
+
+#asks User for The Length of a Pendulum
+PLength = input("Please Input The Length of A Pendulum ")
+PLength:float = float(PLength)
+#Gravity
+g: float = float(9.8)
+#Calculating The Period of the Given Pendulum
+Period = 2*math.pi*(math.sqrt(PLength/g))
+
+print(" ")
+#Printing Final Answer with 2 decimal points
+print("Here is the Period of your pendulum: %.2f " % Period)
+
+   
