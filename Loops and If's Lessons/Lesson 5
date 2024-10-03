@@ -1,0 +1,9 @@
+n = int(input("Input the Value of n: "))
+print("counting from j = 1 to:", n)
+for j in range (1, n + 1):
+  tri = 0
+  factorial = 1
+  for i in range(1, j +1):
+    tri += i
+    factorial *= i
+  print("%1s %5s %10s" % (str(j), str(tri), str(factorial)))
