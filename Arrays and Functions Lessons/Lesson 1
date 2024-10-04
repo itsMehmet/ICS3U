@@ -1,0 +1,12 @@
+progname = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id."
+print(progname)
+space = 0
+for c in progname:
+  if c == " ":
+    space += 1
+    
+print("")
+print("There are:", space, "amounts of space")
+    
+    
+    
