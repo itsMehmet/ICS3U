@@ -1,0 +1,12 @@
+items = []
+amount = int(input("How many items do you have?"))
+print("Enter your items now: ")
+
+for item in range(amount):
+  items.append(input("Next item: "))
+  
+print("You have entered %d items." % len(items))
+  
+for item in items:
+  print(item)
+  
