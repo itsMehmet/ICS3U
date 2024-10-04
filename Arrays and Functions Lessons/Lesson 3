@@ -1,0 +1,18 @@
+Items = ["Apples", "Bananas", "Cherries", "Dosa"]
+Sizes = []
+Matches = []
+
+for i in range(len(Items)): 
+  SizeI = len(Items[i])
+  Sizes.append(SizeI)
+
+for i in range(len(Sizes)):
+  if Sizes[i] == len(Items[i]):
+    Matches.append(True)
+  else:
+    Matches.append(False)
+    
+for i in range(len(Sizes)):
+  print("%d %s, %s" % (Sizes[i], Items[i], Matches[i]))
+    
+   
