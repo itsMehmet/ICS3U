@@ -1,0 +1,13 @@
+#modify
+ar2 = [[3, 4, 1, 2, 6],
+      [9, 2, 3, 7, 5],
+      [4, 2, 1, 0, 3]]
+ar_added = []
+for i in range(len(ar2)):
+  ar3 = ar2[i]
+  amount = 0
+  for j in range(len(ar3)):
+      amount += ar3[j]
+  ar_added.append(amount)
+  
+print(ar_added)
