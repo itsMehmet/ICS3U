@@ -1,10 +1,14 @@
 #Modify
-a = float(input("Please Input A Value For A:"))
-b = float(input("Please Input A Value For B:"))
 def add(a, b):
   return a + b
-
-print(add(a, b))
+try:
+  
+  a = float(input("Please Input A Value For A:"))
+  b = float(input("Please Input A Value For B:"))
+  print(add(a, b)*2)
+  
+except:
+  print("Invalid Number Try Again:")
 
 #Modify 2
 import math 
