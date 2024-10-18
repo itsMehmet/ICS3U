@@ -1,1 +1,30 @@
+#make
 
+def factorize(N):
+  my_factors = []
+  for j in range(1, N):
+    if N % j == 0:
+      my_factors.append(j)
+  return my_factors
+print(factorize(6))
+print(factorize(24))
+print(factorize(0))
+print(factorize(1))
+print(factorize(7))
+
+#input parameter
+
+def factorize(N):
+  my_factors = []
+  for j in range(1, N):
+    if N % j == 0:
+      my_factors.append(j)
+  return my_factors
+
+try:
+  n = int(input("Please enter a positive integer: "))
+  print(factorize(n))
+except:
+  print("Please input a valid number")
+
+#make more
