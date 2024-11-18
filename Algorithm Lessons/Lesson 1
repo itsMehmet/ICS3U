@@ -7,3 +7,39 @@ for i in range (4):
     t.forward(100)
     t.left(90)
 
+# Part 2
+import turtle
+
+t = turtle.Turtle()
+
+for i in range(3):
+  t.forward(100)
+  t.left(120)
+
+# Modify
+import turtle
+
+t = turtle.Turtle()
+
+for i in range(60):
+  t.forward(100)
+  t.left(63)
+
+# Modify 2
+import turtle
+
+t = turtle.Turtle()
+
+for i in range(80):
+  t.forward(100)
+  t.left(93)
+
+# Part 3
+import turtle
+
+t = turtle.Turtle()
+
+t.penup()
+t.goto(100, 100)
+t.pendown()
+t.dot(20, "red")
