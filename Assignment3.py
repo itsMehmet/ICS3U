@@ -1,6 +1,6 @@
 """
-Author : Carter Wells
-Student Number: 756118
+Author : Mehmet Yucel
+Student Number: 759742
 Revison date : 26 November 2024
 Program : Making a graphics plotter in Turtle
 Description : A program that will plot the pixels of a given xpm file
